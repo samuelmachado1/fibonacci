@@ -24,7 +24,7 @@ namespace Codenation.Challenge
 
         public bool IsFibonacci(int numberToTest)
         {
-            throw new NotImplementedException();
+            return Fibonacci().Contains(numberToTest);
         }
     }
 }
